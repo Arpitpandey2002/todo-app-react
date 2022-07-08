@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-color: #F5F5F5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-div{
+  /* margin-top:; */
+  top: 30px;
+  position:relative;
+  margin: auto;
+  display: block;
+  position: relative;
+  justify-content: center;
+  border-radius: 10px;
+}
+.inner_div{
+  min-height: 19rem;
+  max-width:15rem;
+  background-color:#FEFEFA;
+  display: block;
+  margin: auto;
+  border: 1px solid rgb(168, 104, 231);
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+  /* text-align: center; */
+  box-shadow: 4px 4px 8px rgb(168, 104, 231);;
+}
+
+.inner_div h2{
+  color: white;
+  text-align: center;
+  background-color: rgb(168, 104, 231);
+  margin:0;
+}
+
+input{
+  /* background:none; */
+  outline: none;
+  border: none;
+  height: 1.9rem;
+  width: 60%;
+  position: relative;
+  background:transparent;
+  justify-content: center;
+  margin: auto;
+  margin-left: 30px;
+  text-align: center;
+  border-bottom: 2px solid rgb(168, 104, 231); 
+  margin-top: 30px;
+}
+
+input::placeholder{
+  color:darkviolet;
+  /* font-weight: bold; */
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+  /* margin: auto; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  overflow: hidden;
+  cursor:pointer;
+  background-color: rgb(168, 104, 231);
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position:relative;
+  font-size: 20px;
+
+}
+button:hover{
+  background-color:orange;
+}
+
+ol{
+  list-style-type:none;
+  display: inline-block;
+  
+}
+ol li{
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  top:-4px;
+}
+
+.item-style{
+  display: flex;
+  flex-direction: row;
+}
+
+.item-style .fa-solid{
+  /* background-color: red; */
+  color:blueviolet;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
+}
+.fa-solid:hover{
+  color: red;
+  cursor:pointer;
+}
+/* 
+.......................will used in future for checkbox............
+
+input[type='checkbox']{
+  height: 15px;
+  width: 15px;
+  margin-left: 30px;
+  overflow: hidden;
+} */
+/* @media screen and (min-width: 480px) {
+  button{
+    
+    background-color:orange;
+  }
+  .inner_div{
+  margin-left: 20px;
+  border: 1px solid orange;
+  color: white;
+
+  }
+  .inner_div h2{
+
+    font-size: 1.5rem;
+    color:orange;
+    background-color:orange;
+  
+}
+}
+
+@media screen and (min-width: 768px) {
+  .inner_div{
+    background-color:;
+  }
+  .inner_div h2{
+
+    font-size: 1.5rem;
+    color:green;
+}
+} */

@@ -1,0 +1,8 @@
+.main_div{
+    height: 200px;
+    width: 220px;
+    border: 1px solid rebeccapurple;
+    background-color: antiquewhite;
+}
+
+export default ToDoList;
